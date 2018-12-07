@@ -1,0 +1,362 @@
+html, body{
+    margin: 0%;
+}
+
+img{
+    height: auto;
+    width: 100%;
+}
+
+.icon{
+    font-size: 24px;
+    color: purple;
+    margin-left: 24px;
+    font-style: italic;
+}
+.menu{
+    justify-self: end;
+}
+
+ .menu li{ 
+    display: inline;
+    margin: 0 24px;
+}
+
+.toggle-icon{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+nav{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto 1fr;
+    align-content: center;
+    align-items: center;
+    min-height: 60px;
+    background: white;
+    z-index: 10000;
+    position: fixed;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+
+h1{
+    color: rgb(207, 214, 211);
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+  }
+
+.background-image{
+    position: relative;
+}
+
+.background-image::after {
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    content: "";
+    background-color: blueviolet;
+    opacity: 0.8;
+}
+
+.event-info{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: rgb(154, 153, 168);
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+.heading{
+    font-size: 70px;
+    color: rgb(243, 222, 222);  
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family:cursive;
+}
+
+h2{
+    color: rgb(243, 222, 222);  
+}
+
+.register{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 40px;
+    color: rgb(65, 3, 49);
+    border-color: rgb(8, 1, 6);
+    opacity: 0.5;
+    background-color: white;
+
+}
+.learn-more a{
+    color: white;
+}
+
+.learn-more{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 40px;
+    color: white;
+    border-color: white;
+    opacity: 0.7;
+    background-color: rgb(135, 78, 189);
+    margin-left: 16px;
+}
+#count-down{
+    font-size: 48px;
+    color: #f2f2f2;
+    margin-top: 70px;
+}
+.about{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    padding: 15px;
+}
+
+.pyladdies h3, .apply h3{ 
+    font-size: 24px;
+    color: rgb(134, 79, 185);
+}
+
+.sub-heading{
+    color: #766772;
+    font-size: 18px;
+    font-family:  Roboto;
+    letter-spacing: 0.5;
+    line-height: 1.7;
+}
+
+
+.schedules{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-auto-rows: auto;
+    justify-items: center;
+    grid-gap: 10px;
+    padding:10px;
+}
+
+.schedule-heading{
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 36px;
+    color: rgb(134, 79, 185);
+}
+.topics {
+    font-size: 18px;
+    color: #766772;
+    letter-spacing: 0.5;
+    line-height: 1.7;
+}
+.day{
+    color: rgb(134, 79, 185);
+}
+
+ul{
+    padding-left: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+.apply-now{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: url(images/djangogirls2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.apply-now:after {
+    top: 0;
+    left:0;
+    position: absolute;
+    width: 100%;
+    height: 100% !important;
+    content: "";
+    background-color: rgb(33, 22, 37);
+    opacity: 0.9;
+}
+
+.register-info{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: rgb(154, 153, 168);
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.signup{
+    padding: 14px;
+    font-size: 24px;
+    border-radius: 40px;
+    color: white;
+    border-color: white;
+    border: solid;
+    opacity: 0.9;
+    background-color: rgb(141, 141, 31);
+    margin-left: 16px;
+}
+
+.signup a{
+    text-decoration: none;
+    color: white;
+}
+.available{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    width: 100%;
+    min-height: 300px;;
+    color: white;
+    align-content: center;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgb(59, 57, 61);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+.our-coaches{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 20px;
+    grid-area: auto; 
+    align-content: center;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+}   
+.coach{
+    text-align: center;
+    font-size: 24px;
+}
+
+.coach1{
+    text-align: center;
+    font-size: 36px;
+    color: rgb(134, 79, 185);
+}
+.coach-profile {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 20px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.coach-profile:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.circle-image{
+    border-radius: 50%;
+    width: 200px;
+}
+
+
+.name{
+    color: #766772;
+    font-size: 18px;
+}
+
+.footer{
+    width: 100%;
+    min-height: 200px;
+    margin-top: 20px;
+    background: rgb(59, 57, 61);
+}
+
+.footer-menu{ 
+    text-align: center;   
+}
+.footer-link{
+    margin: 5px 24px;
+    color: #fefefe;
+}
+
+.icon-footer {
+    padding: 20px;
+    text-align: center;
+    color: floralwhite;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.copy{
+    text-align: center;
+    color: whitesmoke;
+    size: 14px;
+}
+
+.socials {
+    text-align: center;
+}
+ 
+.social-icons {
+    margin: 10px;
+    color: aliceblue;
+}
+
+@media(max-width: 767px) {
+    .event-info{
+        width: 90%;
+    }
+    .event-info h2{
+        font-size: 23px;
+    }
+    .heading{
+        font-size: 26px;
+    }
+    .about{
+        grid-template-columns: 1fr;
+    }
+    .schedules{
+        grid-template-columns: 1fr;
+    }
+    .our-coaches{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .footer-menu{
+        display: none;
+    }
+    .nav a.toggle-icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    .toggle-icon{
+        display: block;
+    }
+    .nav{
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+    .nav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      #mylinks{
+        display: none;
+    } 
+}
