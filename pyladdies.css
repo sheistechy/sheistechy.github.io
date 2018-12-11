@@ -136,7 +136,7 @@ h2{
     font-size: 18px;
     font-family:  Roboto;
     letter-spacing: 0.5;
-    line-height: 1.7;
+    line-height: 1.925em;
 }
 
 
@@ -159,7 +159,7 @@ h2{
     font-size: 18px;
     color: #766772;
     letter-spacing: 0.5;
-    line-height: 1.7;
+    line-height: 1.925em;
 }
 .day{
     color: rgb(134, 79, 185);
@@ -326,6 +326,7 @@ ul li{
     }
     .heading{
         font-size: 26px;
+        padding-top: 30px;
     }
     .about{
         grid-template-columns: 1fr;
