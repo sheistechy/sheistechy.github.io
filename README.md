@@ -1,4 +1,4 @@
-# SheisTechie.github.io
+# Sheistechy.github.io
 It's a non-profit technology based organization focused on empowering women to acquire free technical skills.
 
 # Our focus
