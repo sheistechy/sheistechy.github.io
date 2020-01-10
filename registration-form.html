@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+   <link rel="stylesheet" href="/pyladdies.css">
+</head>
+<body>
+    
+    <!-- Main nav starts here -->
+  <header>
+
+      <div class="main-navigation-bar">
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+          <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img class="oguwaLogo" src="images/logo 5.png" alt="sheistechy logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav offset-md-5">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Code of Conduct</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Event</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Volunteer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn main-color-btn" href="#">Sponsors</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+      </div>
+  </header>
+
+  <section id="registrationformbanner">
+    <div class="container">
+      <div class="py-2" class="bannercontent">
+        <h1>REGISTRATION FORM</h1>
+        <div class="rulerunder rulerunder-center">
+            <ul class="linesanddots">
+              <li>
+                <ul class="lines">
+                    <li>
+                      <span>
+                        <img src="images/Line 35.svg" class="img-fluid line" alt="line svg">
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <img src="images/Line 35.svg" class="img-fluid line" alt="line svg">
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <img src="images/Line 35.svg" class="img-fluid line" alt="line svg">
+                      </span>
+                    </li>
+                    <li>
+                      <ul class="dots">
+                          <li>
+                            <img src="images/Line 39.svg" class="dot" alt="dot svg">
+                          </li>
+                          <li>
+                            <img src="images/Line 39.svg" class="dot" alt="dot svg">
+                          </li>
+                          <li>
+                            <img src="images/Line 39.svg" class="dot" alt="dot svg">
+                          </li>
+                          <li>
+                            <img src="images/Line 39.svg" class="dot" alt="dot svg">
+                          </li>
+                      </ul>
+                    </li>
+                </ul>
+              </li>
+              <li>
+              </li>
+          </ul>
+        </li>
+            </ul>
+        </div>
+        <div class="breadcrumbtext">
+          <h4>
+            <a class="main-color-text" href="index.html">HOME</a>/Register
+          </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="registerform">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-10 offset-md-1">
+          <div class="formshadow">
+            <form  action="">
+              <h2 class="text-center">Please fill the form below</h2>
+              <div class="form-group row">
+                <label class="col-12" for="fullname">Full Name</label>
+                <div class="col-12">
+                  <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Enter Your Full Name">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label class="col-12" for="email">Full Name</label>
+                <div class="col-12">
+                  <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label class="col-12" for="age">Age</label>
+                <div class="col-12">
+                  <input type="number" name="age" id="age" class="form-control" min="1" max="10" placeholder="Between 0 - 10">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label class="col-12" for="techexperience">Tech Experience</label>
+                <div class="col-12">
+                  <select name="techexperience" id="techexperience" class="form-control">
+                      <option value="Novice">Novice</option>
+                      <option value="Beginner">Beginner</option>
+                      <option value="Intermediate">Intermediate</option>
+                      <option value="Expert">Expert</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label class="col-12" for="interest">Interest</label>
+                <div class="col-12">
+                  <input type="text" name="interest" id="interest" class="form-control" min="1" max="10" placeholder="Interest">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="message" class="col-12">How do you want us to help you</label>
+                <div class="col-12">
+                  <textarea name="message" class="form-control" id="message" rows="5" placeholder="Write to us"></textarea>
+                </div>
+              </div>
+              <div class="form-group row">
+                <button type="submit" class="btn main-color-btn btn-lg mx-auto">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="bsfooter">
+    <div class="container">
+      <div class="row" id="footer-margintop">
+        <div class="col-12 col-md-5">
+          <div class="footer-column footer-about">
+            <h3 class="main-color-text">ABOUT SHEISTECHY</h3>
+            <div class="rulerunder">
+                <ul class="linesanddots">
+                  <li>
+                    <ul class="lines">
+                        <li>
+                          <span>
+                            <img src="images/Line 35.svg" class="img-fluid line" alt="line svg">
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <img src="images/Line 35.svg" class="img-fluid line" alt="line svg">
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <img src="images/Line 35.svg" class="img-fluid line" alt="line svg">
+                          </span>
+                        </li>
+                        <li>
+                          <ul class="dots">
+                              <li>
+                                <img src="images/Line 39.svg" class="dot" alt="dot svg">
+                              </li>
+                              <li>
+                                <img src="images/Line 39.svg" class="dot" alt="dot svg">
+                              </li>
+                              <li>
+                                <img src="images/Line 39.svg" class="dot" alt="dot svg">
+                              </li>
+                              <li>
+                                <img src="images/Line 39.svg" class="dot" alt="dot svg">
+                              </li>
+                          </ul>
+                        </li>
+                    </ul>
+                  </li>
+                  <li>
+                  </li>
+              </ul>
+            </li>
+                </ul>
+            </div>
+            <p class="text-white">
+              Sheistechy inspire young and talented women to fall in love with technologies. 
+              We are a mentorship group with a focus on helping more women become active participants and leaders 
+              in the technologies.
+            </p>
+            <ul class="ul-unstyled social-media-icons">
+                <li>
+                  <a href="#">
+                    <i class="fa fa-facebook fa-2x"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-twitter fa-2x"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-linkedin fa-2x"></i>
+                  </a>
+                </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="footer-column footer-quick-links">
+            <h3 class=" main-color-text">QUICK LINKS</h3>
+            <div class="rulerunder">
+                <ul class="linesanddots">
+                  <li>
+                    <ul class="lines">
+                        <li>
+                          <span>
+                            <img src="images/Line 35.svg" class="img-fluid line" alt="line svg">
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <img src="images/Line 35.svg" class="img-fluid line" alt="line svg">
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <img src="images/Line 35.svg" class="img-fluid line" alt="line svg">
+                          </span>
+                        </li>
+                        <li>
+                          <ul class="dots">
+                              <li>
+                                <img src="images/Line 39.svg" class="dot" alt="dot svg">
+                              </li>
+                              <li>
+                                <img src="images/Line 39.svg" class="dot" alt="dot svg">
+                              </li>
+                              <li>
+                                <img src="images/Line 39.svg" class="dot" alt="dot svg">
+                              </li>
+                              <li>
+                                <img src="images/Line 39.svg" class="dot" alt="dot svg">
+                              </li>
+                          </ul>
+                        </li>
+                    </ul>
+                  </li>
+                  <li>
+                  </li>
+              </ul>
+            </li>
+                </ul>
+            </div>
+            <div class="links">
+              <ul class="quick-links">
+                  <li>
+                    <a href="#">
+                      <span class="fa fa-play text-white">
+                        </span>
+                        Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="fa fa-play text-white">
+                        </span>
+                        About Us
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="fa fa-play text-white">
+                        </span>
+                        Upcoming Events
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="fa fa-play text-white">
+                        </span>
+                        Blog
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="fa fa-play text-white">
+                        </span>
+                        Contact
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="fa fa-play text-white">
+                        </span>
+                        Volunteer
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="fa fa-play text-white">
+                        </span>
+                        Sponsor
+                    </a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="footer-column footer-blog row">
+            <div class="col-12">
+                <h3 class="main-color-text">BLOG</h3>
+            </div>
+            <div class="rulerunder">
+                <ul class="linesanddots">
+                  <li>
+                    <ul class="lines">
+                        <li>
+                          <span>
+                            <img src="images/Line 35.svg" class="img-fluid line" alt="line svg">
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <img src="images/Line 35.svg" class="img-fluid line" alt="line svg">
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <img src="images/Line 35.svg" class="img-fluid line" alt="line svg">
+                          </span>
+                        </li>
+                        <li>
+                          <ul class="dots">
+                              <li>
+                                <img src="images/Line 39.svg" class="dot" alt="dot svg">
+                              </li>
+                              <li>
+                                <img src="images/Line 39.svg" class="dot" alt="dot svg">
+                              </li>
+                              <li>
+                                <img src="images/Line 39.svg" class="dot" alt="dot svg">
+                              </li>
+                              <li>
+                                <img src="images/Line 39.svg" class="dot" alt="dot svg">
+                              </li>
+                          </ul>
+                        </li>
+                    </ul>
+                  </li>
+                  <li>
+                  </li>
+              </ul>
+            </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6">
+              <img src="./images/DSC00058.jpg" alt="DevFest" class="img-fluid">
+              <h6 class="text-white">DevFest</h6>
+              <p>
+                <i>
+                    DevFest By David | Nov 23, 2019
+                </i>
+              </p>
+              <p class="text-white">
+                  Sheistechy inspire talented tech makers
+              </p>
+            </div>
+            <div class="col-12 col-md-6">
+              <img src="./images/glory 10.jpg" alt="TradeFest" class="img-fluid">
+              <h6 class="text-white">TradeFest</h6>
+              
+                <i>
+                    DevFest By David | Nov 23, 2019
+                </i>
+              <p class="text-white">
+                  Sheistechy inspire talented tech makers
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 copyright align-items-center">
+      <div class="copyright-text text-center text-white">
+         SheisTechy &copy; 2020
+      </div>
+    </div>
+  </footer>
+  
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
