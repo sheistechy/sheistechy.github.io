@@ -361,3 +361,182 @@ ul li{
         display: none;
     } 
 }
+
+
+/*==========================================================
+
+BOOTSTRAP CSS FOR REGISTRATION FORM PAGE STARTS HERE
+============================================================
+*/
+/* bootstrap nav */
+/* header */
+:root {
+    --main-color: #9F0E0E;
+}
+
+/* svg */
+.rulerunder {
+    width: 200px;
+    font-size: 6px;
+}
+.rulerunder-center{
+    margin: 0px auto;
+}
+
+.lines {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.lines li {
+    line-height: 1;
+}
+.lines li:last-child{
+    line-height: 2;
+}
+ul.dots{
+    list-style: none;
+    width: 32px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 40%;
+}
+ul.dots li{
+    margin-top: 2%;
+    padding: 0px;
+    line-height: 1;
+    /* display: inline; */
+}
+/* ul.dots li:first-child{
+    margin-top: 5px;
+} */
+.dot {
+    list-style: none;
+    height: 8px;
+    width: 10px;
+}
+/* Navbar Handburger */
+.navbar-dark .navbar-toggler-icon {
+    background-color: #9F0E0E !important;
+    padding: 14% !important;
+    border: 1px solid gray !important;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+.nav-link {
+    color: #605F5F !important;
+}
+.navbar-brand {
+    /* margin-left: -1rem !important; */
+    padding-left: 0 !important;
+}
+.main-color-btn {
+    background-color: var(--main-color) !important;
+    color: #fff !important;
+}
+.main-color-text {
+    color: var(--main-color) !important;
+}
+
+
+#registrationformbanner {
+    background: linear-gradient(rgba(23, 22, 22, 0.85), rgba(23, 22, 22, 0.85)), url(images/https___blogs-images.forbes.jpg);
+    height: 222px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #fff;
+    /* margin-top: -1.5em; */
+    padding: 2% auto;
+    padding-bottom: 15%;
+}
+
+/* form */
+#registerform {
+    margin: 10% auto 5%;
+}
+.formshadow {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.5);
+    padding: 10% !important;
+}
+
+/* FOOTER */
+#bsfooter {
+    background: radial-gradient(59.71% 59.71% at 50% 50%, #491818 0%, rgba(10, 9, 9, 0.92) 91.97%), url(images/black-girls-coding\ 6.jpg);
+    
+}
+
+#footer-margintop {
+    padding-top: 10% !important;
+}
+
+/* Social media Icon formating starts heres */
+:-moz-ui-invalid.social-media-icons {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul.social-media-icons li {
+    display: inline-block;
+    margin: 2%;
+    
+}
+.fa {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .social-media-icons .fa{
+    border: 2px solid #9F0E0E;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  /* .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+} */
+
+/* social media css ends here */
+
+.copyright {
+    background: radial-gradient(59.71% 59.71% at 50% 50%, #491818 0%, rgba(10, 9, 9, 0.92) 91.97%);
+    height: 52px;
+    padding-top: 20px;
+}
