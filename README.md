@@ -9,8 +9,8 @@ It's a non-profit technology based organization focused on empowering women to a
 # Programming Language
   The project is open to any programming language of the contributor, ranging from;
 * HTML & CSS
+* Bootstrap
 * JavaScript
-* Vue.js, React.js
 * Python and Django
 
 # Wondering how you can be part of this  project?
